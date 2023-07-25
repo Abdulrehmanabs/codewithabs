@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/x-icon" href="images/Black_Gold_logo.png" />
+
+    <link rel="stylesheet" href="home.css" />
+    <title>Code With ABS | Web development explained for self learners!</title>
+    <style>
+      .outerbox:hover > div.Width350 {
+        width: 210px !important;
+        height: 100% !important;
+        margin: 0px !important;
+        background-color: #fff !important;
+        transition: height, width, margin, 0.5s ease-in-out;
+      }
+      .outerbox:hover > div > div {
+        color: #f66 !important;
+        transition: color 0.5s ease-in-out;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <div class="nav">
+      <!-- logo -->
+      <div class="nav-logo">
+        <a href="#">
+          <img src="logo.svg" alt="Logo SVG" width="60px" />
+        </a>
+      </div>
+      <!-- links -->
+      <div class="nav-links">
+        <a href="#">HOME</a>
+        <a href="#">TAGS</a>
+        <a href="#">NEWSLETTER</a>
+      </div>
+    </div>
+
+    <!-- home heading -->
+    <div class="home-header">
+      <div class="width-960px">
+        <h1>Code With ABS</h1>
+        <div>
+          <p>Web development explained for normal people! 🖥 🚀</p>
+          <div class="buttons">
+            <a title="Learn HTML" href="#"> <div>HTML TUTORIALS</div> </a>
+            <a title="Learn CSS" href="#"> <div>CSS TUTORIALS</div> </a>
+            <a title="Learn JavaScript" href="#">
+              <div>JAVASCRIPT TUTORIALS</div>
+            </a>
+          </div>
+          <div class="info">
+            <a class="info" href="#">Don't know which to learn first?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Body With display responsivness -->
+    <div class="container">
+      <div class="large-container">
+        <!-- search bar  -->
+        <div class="search">
+          <div class="search-bar">
+            <input type="search" placeholder="Search The Web..." />
+          </div>
+        </div>
+
+        <!-- Recent Articals -->
+        <h2 class="recent linearGradientcolortotext">Recent Articles</h2>
+
+        <!-- Articals Card 1  -->
+        <div class="card">
+          <div class="card-img">
+            <a
+              class="card-link"
+              title="How to store data in the browser using JavaScript localStorage"
+              href="Images/JS data storage.jpg"
+              target="_blank"
+            >
+              <img
+                src="Images/JS data storage.jpg"
+                alt="card img"
+                width="100%"
+              />
+            </a>
+          </div>
+          <a
+            class="card-link"
+            title="How to store data in the browser using JavaScript localStorage"
+            href="Images/JS data storage.jpg"
+            target="_blank"
+          >
+            <div class="card-title">
+              How to store data in the browser using JavaScript localStorage
+            </div>
+            <div class="card-paragraph">
+              Normally, when you set a variable, it goes away once you reload
+              the page. What if you could store data that stays every tim...
+            </div>
+          </a>
+          <div class="card-footer">
+            <div>
+              <a title="Javascript" class="tags card-link" href="#"
+                >Javascript</a
+              >
+            </div>
+            <div class="date">16 Mar 2023</div>
+          </div>
+        </div>
+
+        <!-- Social links -->
+        <div class="social">
+          <div class="social-title">Find Code The Web on:</div>
+          <div class="social-links">
+            <a class="Reddit card-link" href="https://reddit.com"
+              >Reddit <span>— u/CodeWithABS</span></a
+            >
+            <a class="Twitter card-link" href="https://twitter.com/"
+              >Twitter <span>— @CodeWithABS</span></a
+            >
+          </div>
+        </div>
+
+        <!-- Articals Card 2  -->
+        <div class="card">
+          <div class="card-img">
+            <a
+              class="card-link"
+              title="JavaScript Dialogs"
+              href="Images/JS dialogs.png"
+              target="_blank"
+            >
+              <img src="Images/JS dialogs.png" alt="card img" width="100%" />
+            </a>
+          </div>
+          <a
+            class="card-link"
+            title="JavaScript Dialogs"
+            href="Images/JS dialogs.png"
+            target="_blank"
+          >
+            <div class="card-title">JavaScript Dialogs</div>
+            <div class="card-paragraph">
+              JavaScript dialog boxes provide an easy way to receive inputs from
+              visitors and output results for them to see. We can use ...
+            </div>
+          </a>
+          <div class="card-footer">
+            <div>
+              <a title="Javascript" class="tags card-link" href="#"
+                >Javascript</a
+              >
+            </div>
+            <div class="date">12 Feb 2023</div>
+          </div>
+        </div>
+
+        <!-- Email link -->
+        <div class="Email">
+          <div class="Email-title">
+            Get a weekly email filled with resources to learn web development
+            <a href="#">(more info)</a>
+          </div>
+          <form action="#" class="Email-contact">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email adress"
+              required
+            />
+            <input type="submit" value="Here We Go.." />
+          </form>
+        </div>
+
+        <!-- Articals Card 3  -->
+        <div class="card">
+          <div class="card-img">
+            <a
+              class="card-link"
+              title="JavaScript Timeouts and Intervals"
+              href="Images/JS timeouts.jpg"
+              target="_blank"
+            >
+              <img src="Images/JS timeouts.jpg" alt="card img" width="100%" />
+            </a>
+          </div>
+          <a
+            class="card-link"
+            title="JavaScript Timeouts and Intervals"
+            href="Images/JS timeouts.jpg"
+            target="_blank"
+          >
+            <div class="card-title">JavaScript Timeouts and Intervals</div>
+            <div class="card-paragraph">
+              Timeouts and intervals let you execute pieces of code at specific
+              times — they’re really useful! Learn how to use them in t...
+            </div>
+          </a>
+          <div class="card-footer">
+            <div>
+              <a title="Javascript" class="tags card-link" href="#"
+                >Javascript</a
+              >
+            </div>
+            <div class="date">19 Jan 2023</div>
+          </div>
+        </div>
+
+        <!-- Social links -->
+        <div class="social">
+          <div class="social-title">Find Code The Web on:</div>
+          <div class="social-links">
+            <a class="Reddit card-link" href="https://reddit.com"
+              >Reddit <span>— u/CodeWithABS</span></a
+            >
+            <a class="Twitter card-link" href="https://twitter.com/"
+              >Twitter <span>— @CodeWithABS</span></a
+            >
+          </div>
+        </div>
+
+        <!-- Articals Card 4  -->
+        <div class="card">
+          <div class="card-img">
+            <a
+              class="card-link"
+              title="Dates and times in JavaScript"
+              href="Images/JS date and time.jpg"
+              target="_blank"
+            >
+              <img
+                src="Images/JS date and time.jpg"
+                alt="card img"
+                width="100%"
+              />
+            </a>
+          </div>
+          <a
+            class="card-link"
+            title="Dates and times in JavaScript"
+            href="Images/JS date and time.jpg"
+            target="_blank"
+          >
+            <div class="card-title">Dates and times in JavaScript</div>
+            <div class="card-paragraph">
+              If you’re a developer, you’re bound to use JavaScript dates and
+              times sooner or later! Learn all about them in this article…
+            </div>
+          </a>
+          <div class="card-footer">
+            <div>
+              <a title="Javascript" class="tags card-link" href="#"
+                >Javascript</a
+              >
+            </div>
+            <div class="date">24 Dec 2022</div>
+          </div>
+        </div>
+
+        <!-- Email link -->
+        <div class="Email">
+          <div class="Email-title">
+            Get a weekly email filled with resources to learn web development
+            <a href="#">(more info)</a>
+          </div>
+          <form action="#" class="Email-contact">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email adress"
+              required
+            />
+            <input type="submit" value="Here We Go.." />
+          </form>
+        </div>
+
+        <!-- Articals Card 5  -->
+        <div class="card">
+          <div class="card-img">
+            <a
+              class="card-link"
+              title="How to interpret URLs with JavaScript"
+              href="Images/JS interpret URLs.png"
+              target="_blank"
+            >
+              <img
+                src="Images/JS interpret URLs.png"
+                alt="card img"
+                width="100%"
+              />
+            </a>
+          </div>
+          <a
+            class="card-link"
+            title="How to interpret URLs with JavaScript"
+            href="Images/JS interpret URLs.png"
+            target="_blank"
+          >
+            <div class="card-title">How to interpret URLs with JavaScript</div>
+            <div class="card-paragraph">
+              There are many situations in web development where you really need
+              to parse (interpret) a URL. Learn how to do that with UR...
+            </div>
+          </a>
+          <div class="card-footer">
+            <div>
+              <a title="Javascript" class="tags card-link" href="#"
+                >Javascript</a
+              >
+            </div>
+            <div class="date">02 Nov 2022</div>
+          </div>
+        </div>
+
+        <!-- Social links -->
+        <div class="social">
+          <div class="social-title">Find Code The Web on:</div>
+          <div class="social-links">
+            <a class="Reddit card-link" href="https://reddit.com"
+              >Reddit <span>— u/CodeWithABS</span></a
+            >
+            <a class="Twitter card-link" href="https://twitter.com/"
+              >Twitter <span>— @CodeWithABS</span></a
+            >
+          </div>
+        </div>
+
+        <!-- Articals Card 6  -->
+        <div class="card">
+          <div class="card-img">
+            <a
+              class="card-link"
+              title="Introduction to the DOM"
+              href="Images/JS intro to DOM.jpg"
+              target="_blank"
+            >
+              <img
+                src="Images/JS intro to DOM.jpg"
+                alt="card img"
+                width="100%"
+              />
+            </a>
+          </div>
+          <a
+            class="card-link"
+            title="Introduction to the DOM"
+            href="Images/JS intro to DOM.jpg"
+            target="_blank"
+          >
+            <div class="card-title">
+              How to change HTML and CSS with JavaScript — an introduction to
+              the DOM
+            </div>
+            <div class="card-paragraph">
+              Part of the entire reason that JavaScript exists is to interact
+              with HTML and CSS. Learn how all three web languages inters...
+            </div>
+          </a>
+          <div class="card-footer">
+            <div>
+              <a title="Javascript" class="tags card-link" href="#"
+                >Javascript</a
+              >
+            </div>
+            <div class="date">11 Oct 2022</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- flex wrap container 960px -->
+      <div class="small-container">
+
+        <!-- Special buttons for support -->
+        <!-- 1 -->
+        <a href="https://www.buymeacoffee.com/" target="_blank" style="text-decoration: none">
+          <div
+            class="outerbox"
+            style="
+              z-index: 3;
+              position: relative;
+              width: auto;
+              max-height: 80px;
+              border-radius: 50px;
+              background-color: #f5a48f;
+              display: flex;
+              overflow: hidden;
+              margin-bottom: 16px;
+              padding: 0px;
+              border: 0px;
+              outline: 0px;
+            "
+          >
+            <div
+              class="Width350"
+              style="
+                z-index: 4;
+                position: absolute;
+                margin: 15px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                /* background-color: #fff; */
+              "
+            ></div>
+            <div
+              style="
+                z-index: 4;
+                width: 100%;
+                padding: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+              "
+            >
+              <div
+                style="
+                  width: 50px;
+                  height: 50px;
+                  margin-right: 10px;
+                  font: 25px bold;
+                  border-radius: 50%;
+                  background-color: #fff;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                📦
+              </div>
+              <div
+                style="
+                  font-size: 22px;
+                  color: #fff;
+                  letter-spacing: 2px;
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                    sans-serif;
+                "
+              >
+                Resources!
+              </div>
+            </div>
+          </div>
+        </a>
+        <!--2 -->
+        <a href="https://www.buymeacoffee.com/" target="_blank" style="text-decoration: none">
+          <div
+            class="outerbox"
+            style="
+              z-index: 3;
+              position: relative;
+              width: auto;
+              max-height: 80px;
+              border-radius: 50px;
+              background-color: #f66;
+              display: flex;
+              overflow: hidden;
+              margin-bottom: 16px;
+              padding: 0px;
+              border: 0px;
+              outline: 0px;
+            "
+          >
+            <div
+              class="Width350"
+              style="
+                z-index: 4;
+                position: absolute;
+                margin: 15px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                /* background-color: #fff; */
+              "
+            ></div>
+            <div
+              style="
+                z-index: 4;
+                width: 100%;
+                padding: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+              "
+            >
+              <div
+                style="
+                  width: 50px;
+                  height: 50px;
+                  margin-right: 10px;
+                  font: 25px bold;
+                  border-radius: 50%;
+                  background-color: #fff;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                ❤️
+              </div>
+              <div
+                style="
+                  font-size: 22px;
+                  color: #fff;
+                  letter-spacing: 2px;
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                    sans-serif;
+                "
+              >
+                Support me
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Social Media Links -->
+        <div class="Tags-box">
+          <div class="Tags-box-title">Spread the word!</div>
+          <div class="Share">
+            <a title="Email" class="card-link" href="#">Email</a>
+            <a title="Facebook" class="card-link" href="#">Facebook</a>
+            <a title="Twitter" class="card-link" href="#">Twitter</a>
+            <a title="LinkedIn" class="card-link" href="#">LinkedIn</a>
+          </div>
+        </div>
+        <!-- Router Tags -->
+        <div class="Tags-box">
+          <a title="Others" class="tags card-link" href="#">Others</a>
+          <a title="HTML 5" class="tags card-link" href="#">HTML</a>
+          <a title="CSS 3" class="tags card-link" href="#">CSS</a>
+          <a title="Javascript" class="tags card-link" href="#">JAVASCRIPT</a>
+          <a title="Back-End" class="tags card-link" href="#">Back-End</a>
+          <a title="Meta" class="tags card-link" href="#">Meta</a>
+        </div>
+      </div>
+      <!-- flex wrap container -->
+    </div>
+
+    <!-- footer -->
+    <div class="body-footer">
+      <div class="footer"> All Rights Reserved by © Code With ABS <i>2023</i></div>
+    </div>
+    <!--   END    -->
+  </body>
+</html>

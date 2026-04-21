@@ -4,7 +4,7 @@
 
 **Live site Netlify:** [code-with-abs.netlify.app](https://code-with-abs.netlify.app/)
 
-**Live site Github Pages:** [abdulrehmanabs.github.io/codewithabs](https://abdulrehmanabs.github.io/codewithabs/Index.html)
+**Live site Github Pages:** [abdulrehmanabs.github.io/codewithabs](https://abdulrehmanabs.github.io/codewithabs/)
 
 This repository is a **static, single-page** front-end: one HTML document, one stylesheet, and image assets. There is **no build step** and **no JavaScript framework** — only HTML and CSS (plus a small inline `<style>` block for hover effects on the sidebar buttons).
 
